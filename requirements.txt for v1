@@ -1,0 +1,17 @@
+1️⃣ Voice Assistant Project
+First, create a virtual environment (recommended) and install dependencies:
+
+bash
+# Create and activate virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows
+
+# Install requirements
+pip install -r requirements.txt
+Your requirements.txt for this project should contain:
+
+Code
+speechrecognition==3.10.0
+pyttsx3==2.90
+wikipedia==1.4.0
